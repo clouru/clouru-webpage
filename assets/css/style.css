@@ -1,0 +1,152 @@
+/*
+Theme Name: uplers
+Theme URI: https://www.uplers.com/themes/uplers/
+Author: the Creative team
+Author URI: https://www.uplers.com/
+Description: The uplers theme for WordPress is a fully responsive theme that looks great on any device. Features include a front page template with its own widgets, an optional display font, styling for post formats on both index and single views, and an optional no-sidebar page template. Make it yours with a custom menu, header image, and background.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: blog, one-column, two-columns, right-sidebar, custom-background, custom-header, custom-menu, editor-style, featured-images, flexible-header, footer-widgets, full-width-template, microformats, post-formats, rtl-language-support, sticky-post, theme-options, translation-ready
+Text Domain: uplers
+*/
+
+/*------------------------------------------------------
+	overwrite css start
+------------------------------------------------------*/
+
+.megamenu.hiremain .megamenu-footer .megamenu-footerImg{max-width:780px}
+
+
+/* about page */
+.team-main .team-slider .team-row .person-box .photo figure img{margin: 0;}
+.team-main .team-slider .team-row .person-box .photo:before{background-image:url(assets/images/team/bg.png); background-position: bottom center; left: 0; bottom: 0; }
+
+/* digital marketing page */
+.digital-marketing-pg .marketing-tools .logos ul li img{max-width: 155px; max-height: 75px; }
+
+
+.talent-blackStrip{display:none;}
+.talent-menu-link{display:none !important}
+.logo-tagline{display:none;}
+
+.top-nav > ul > li.has-submenu > a{cursor:default;}
+.sml-menu .sub-menu{white-space:nowrap;}
+
+body #olark-container .olark-top-bar p{color:#333 !important}
+body #olark-container .olark-operator-message a{color:#333 !important}
+
+@media(max-width:767px){
+	.top-nav .mobile-menu-contact{margin-top:30px}
+}
+
+.megamenu.hiremain .menublocks .block-item{margin-right:40px}
+@media(max-width:1351px){
+	.megamenu.hiremain .menublocks .block-item{color:#CCC}
+}
+.leadinModal.leadinModal-theme-default.leadinModal-v3 .leadinModal-content{max-width:750px;width:100% !important;top:50%;transform:translateY(-50%);background:url(assets/images/mainpopup-bg.png)no-repeat;background-position:right center;background-color:rgba(255,255,255,0.9) !important;    min-height: 390px; display: flex; align-items: center; border-radius: 0;background-size:contain;}
+.leadinModal.leadinModal-theme-default.leadinModal-v3.leadinModal-preview .leadin-button {font-size: 18px; font-weight: 700; background: #FFDA30 !important; color: #000 !important;width: auto; border-radius: 40px; margin-top:12px;transition:0.5s all}
+.leadinModal.leadinModal-theme-default.leadinModal-v3.leadinModal-preview .leadin-button:hover{background:#000 !important;color:#FFF !important}
+.leadinModal.leadinModal-theme-default.leadinModal-v3.leadinModal-preview h4 {font-size: 30px; line-height: 1.2; font-weight: 700;color:#000}
+.leadin-preview-wrapper{padding:80px 250px 80px 60px !important}
+.leadinModal-v3 .leadinModal-close:before{font-size:35px !important;text-align:center !important;line-height:40px !important;padding:0 !important}
+.leadinModal .leadinModal-content label{color: #000 !important; font-weight: 500 !important;}
+.leadinModal .leadin-input-wrapper{margin-bottom:20px !important} 
+#leadin-content-form-wrapper {padding:80px !important; background: rgba(255,255,255,0.8); box-shadow: none !important; }
+
+.leadinModal .leadin-input-wrapper input[type="text"], .leadinModal .leadin-input-wrapper input[type="email"], .leadinModal .leadin-input-wrapper input[type="tel"], .leadinModal .leadin-input-wrapper input[type="number"], .leadinModal .leadin-input-wrapper select, .leadinModal .leadin-input-wrapper textarea{border: 0 !important; border-radius: 0 !important; box-shadow: none !important; cursor: text !important; border-bottom: solid 1px #000 !important; outline: none !important; padding: 0 !important; margin: 0 !important; height: 35px !important; color: #000 !important;}
+.leadinModal.leadinModal-v3 .leadin-button {font-weight: 700 !important; font-size: 18px; background: #ffdb2d !important; color: #000 !important; border-radius: 40px; width: auto; margin: 0 !important;transition:0.5s all; }
+.leadinModal.leadinModal-v3 .leadin-button:hover{background:#000 !important;color:#FFF !important}
+.leadin-message-wrapper h4{font-size: 25px !important; color: #000 !important;font-weight:700 !important;margin-bottom:30px !important}
+.leadin-message-wrapper p{font-size:16px !important;line-height:1.5 !important}
+.leadinModal-description-body{margin-bottom:10px}
+.leadinModal-description-body p{font-size: 25px !important; font-weight: 400;color:#000 !important;margin-bottom:25px !important}
+.leadinModal.leadinModal-theme-default{padding:0 !important}
+
+.thank-you-message p {color: #000 !important; font-size: 25px !important; font-weight: 700 !important; line-height: 1.5 !important;padding:0 20px !important}
+.leadinModal.leadinModal-theme-default.leadinModal-v3.leadinModal-thanks .leadinModal-content:before {height: 100%; width: 100%; left: 0; top: 0; background-color: rgba(255,255,255,0.7); content: ""; position: absolute; z-index: -1; }
+.leadinModal.leadinModal-theme-default.leadinModal-v3.leadinModal-thanks .leadinModal-content{min-height:300px}
+.thank-you-button .leadin-close-button {background: #FFDA30 !important; color: #000 !important; font-weight: 700 !important; font-size: 18px; text-transform: uppercase; text-decoration: none !important; padding: 0 25px; line-height: 45px; min-height: 45px; border-radius: 45px; outline: none !important; transition: 0.5s all;}
+.leadinModal-thanks .thank-you-button .leadin-close-button:hover {background: #000 !important; color: #FFF !important; text-decoration: none !important; }
+
+
+.megamenu .menublocks .block-item .lvl-3-menu{padding: 15px 0;opacity:0;visibility:hidden;transition:0.5s all}
+.megamenu .menublocks .block-item .lvl-3-menu li {font-size: 16px; position: relative; }
+.megamenu .menublocks .block-item .lvl-3-menu li:before {content: "-"; font-size: 23px; margin: 0 5px 0 0; }
+
+
+.submenu-toggle2{position: relative; display: inline-block; width: 10px;}
+.submenu-toggle2:after {content: ""; height: 7px; width: 7px; margin: -9px 0 0 3px; vertical-align: middle; transition: 0.5s all; border-left: solid 1px #000000; display: block; border-bottom: solid 1px #000000; transform: rotate(-135deg ); }
+
+.sml-menu .sub-menu ul li.has-sml-menu-2-lvl{min-width:290px}
+
+.remote-menu-link.sml-menu .sub-menu .has-sml-menu-2-lvl .submenu-toggle2{margin:0 0 0 -25px}
+.remote-menu-link.sml-menu .sub-menu .lvl-2-smlmenu {padding: 5px 0 15px 15px;display:none;}
+.remote-menu-link.sml-menu .sub-menu .lvl-2-smlmenu li {font-size: 14px; line-height: 10px; }
+.remote-menu-link.sml-menu .sub-menu .lvl-2-smlmenu li a {color: #777; }
+.remote-menu-link.sml-menu .sub-menu .lvl-2-smlmenu li a:hover{color:#000}
+
+footer.ort .copyrights{border-top: solid 1px #4d4e4e; text-align: center;padding:30px 0 0 0}
+
+@media(min-width:1351px){
+    .megamenu .menublocks .block-item li.has-menu-3-lvl:hover .lvl-3-menu{opacity:1;visibility:visible;}
+    .megamenu .menublocks .block-item li.has-menu-3-lvl:hover .submenu-toggle{transform: rotate(180deg);top: -9px;left:6px;}
+    .sml-menu .sub-menu .has-sml-menu-2-lvl:hover .lvl-2-smlmenu{display:block;}
+    .sml-menu .sub-menu .has-sml-menu-2-lvl:hover .submenu-toggle2{transform: rotate(90deg ); top: -8px; left: -1px;}
+}
+
+
+@media(max-width:1550px){
+    .megamenu.hiremain .megamenu-footer .megamenu-footerImg{max-width:600px}
+    .leadin-preview-wrapper {padding: 50px 220px 50px 30px !important; }
+    .leadinModal.leadinModal-theme-default.leadinModal-v3.leadinModal-preview h4{font-size:22px}
+    .leadinModal-description-body p{margin-bottom:20px !important;font-size:18px !important}
+    .leadinModal.leadinModal-theme-default.leadinModal-v3.leadinModal-preview .leadin-button{font-size:16px}
+    .leadinModal.leadinModal-theme-default.leadinModal-v3 .leadinModal-content{min-height:300px;max-width:600px;max-height:inherit !important}
+    .leadinModal .leadin-input-wrapper label{padding:0 !important}
+    #leadin-content-form-wrapper{padding:50px !important}
+    .thank-you-message p{font-size:20px !important}
+    .thank-you-button .leadin-close-button{line-height: 40px; min-height: 40px;font-size:16px}
+    .megamenu .menublocks .block-item .lvl-3-menu li{font-size:14px !important}
+    .megamenu .menublocks .block-item .lvl-3-menu{padding:8px 0}
+    .megamenu .menublocks .block-item .lvl-3-menu li:before{font-size:19px}
+}
+@media(max-width:1350px){
+    .megamenu .menublocks .block-item li.has-menu-3-lvl .submenu-toggle{top:0;transform: rotate(90deg);left:3px;height:10px}
+    .megamenu .menublocks .block-item li.has-menu-3-lvl .submenu-toggle:after{border-color:#FFF;border-width:2px;margin:0}
+    .megamenu .menublocks .block-item .lvl-3-menu{padding:5px 0}
+    .megamenu .menublocks .block-item .lvl-3-menu li:before{color:#FFF;font-size:20px}
+    .megamenu .menublocks .block-item li.has-menu-3-lvl.open .submenu-toggle{transform: rotate(-90deg);top:1px;left:6px}
+    .megamenu .menublocks .block-item li.has-menu-3-lvl.open .lvl-3-menu{opacity:1;visibility:visible;}
+
+    .sml-menu .sub-menu .lvl-2-smlmenu li a{color:#666}
+    
+}
+@media(max-width:991px){
+    .leadinModal.leadinModal-theme-default.leadinModal-v3 .leadin-preview-wrapper, .leadinModal.leadinModal-theme-default.leadinModal-v3 #leadin-content-form-wrapper{padding:50px !important}
+    .leadinModal.leadinModal-theme-default.leadinModal-v3 .leadinModal-content{min-height:250px;}
+    body .leadinModal.leadinModal-theme-default.leadinModal-v3 .leadin-content-body{padding:0 !important}
+    body .leadinModal.leadinModal-theme-default.leadinModal-v3 .leadin-preview-wrapper{padding:30px 150px 30px 30px !important}
+    body .leadinModal.leadinModal-theme-default.leadinModal-v3 #leadin-content-form-wrapper{padding:30px !important}
+}
+@media(max-width:767px){
+    .leadin-message-wrapper h4{font-size:22px !important}
+    .leadinModal.leadinModal-theme-default.leadinModal-v3.leadinModal-form .leadinModal-content{align-items:flex-start;}
+    .thank-you-message p{font-size:16px !important}
+    .thank-you-button .leadin-close-button{padding: 0 15px; line-height: 35px; min-height: 35px;font-size:15px}
+}
+@media(max-width:480px){
+    body .leadinModal.leadinModal-theme-default.leadinModal-v3 .leadin-preview-wrapper{padding:20px 150px 30px 20px !important}
+    .leadinModal.leadinModal-theme-default.leadinModal-v3.leadinModal-preview h4{font-size:20px;}
+    .leadinModal-description-body p{font-size:15px !important}
+    .leadinModal.leadinModal-theme-default.leadinModal-v3.leadinModal-preview .leadin-button {font-size: 15px; padding: 0 20px !important; height: 35px; line-height: 35px; }
+}
+
+.social ul li a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.slides {
+    display: flex;
+}
