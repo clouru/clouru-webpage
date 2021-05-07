@@ -23,3 +23,8 @@ footer#colophon .ftr-locations ul{justify-content: center;}
         max-width: 230px;
     }
 }
+@media (max-width: 767px){
+    .ppc-testimonials .item .desc {
+        padding: 0 10px;        
+    }
+}
