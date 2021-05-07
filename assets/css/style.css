@@ -17,3 +17,9 @@
 .digital-outsourcing-agency .clutch-pg .banner .logos-slider {
     visibility: hidden;
 }
+
+footer#colophon {
+    background: url(../images/agency-banner.png);
+    background-size: 100% !important;
+    background-position-y: 100% !important;
+}
