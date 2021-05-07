@@ -40,128 +40,10 @@
 		jQuery(this).next('.more-content').slideToggle(300).toggleClass('open');
 	});
 
-	//testimonials clicks
-	jQuery('#testimonials-lists').on("click", '.read-click', function () {
-		jQuery(this).parents('.testimonialsBox').addClass('open');
-	});
-
-	jQuery('#testimonials-lists').on("click", '.testimonialsBox .close-btn', function () {
-		jQuery(this).parents('.testimonialsBox').removeClass('open');
-	});
-
 	//sticky section
 	if (jQuery(window).width() > 1025) {
 		var sticky = new Sticky('[data-sticky]');
 	}
-
-	//Increment decrement Jquery START
-	jQuery('.plus').on('click', function () {
-		var $qty = jQuery(this).closest('.page-box').find('.qtyBox');
-		var currentVal = parseInt($qty.val());
-		if (!isNaN(currentVal)) {
-			$qty.val(currentVal + 1);
-		}
-	});
-	jQuery('.minus').on('click', function () {
-		var $qty = jQuery(this).closest('.page-box').find('.qtyBox');
-		var currentVal = parseInt($qty.val());
-		if (!isNaN(currentVal) && currentVal > 0) {
-			$qty.val(currentVal - 1);
-		}
-	});
-	//Increment decrement Jquery END
-
-	if (jQuery(window).width() > 767) {
-
-		var lis = jQuery(".blog-nav ul#filter_by li");
-		lis.slice(6).wrapAll("<ul class='dropdown-more'></ul>");
-
-		jQuery('.dropdown-more').wrap('<li class="more_button" id="moreBtn">More</li>')
-
-
-
-		jQuery(document).click(function (e) {
-			if (e.target.id == 'moreBtn') {
-				jQuery('ul.dropdown-more').toggleClass('open');
-			}
-			else {
-				jQuery('ul.dropdown-more').removeClass("open");
-			}
-		})
-	}
-
-
-	if (jQuery(window).width() > 1024) {
-		// jQuery('.site-header').hover(function(e) {
-		// 	jQuery('body').toggleClass('menu-opened');
-		// });
-		jQuery('.main-menu > li.has-submenu').hover(function (e) {
-			// jQuery('.has-submenu').hover(function(e) {
-			e.preventDefault()
-			jQuery('body').addClass('menu-opened');
-			jQuery(this).find('.megamenu').addClass('open');
-			jQuery(this).addClass('open');
-			// jQuery(this).parent('li').addClass('active');
-		}, function (e) {
-			e.preventDefault()
-			jQuery('body').removeClass('menu-opened');
-			jQuery(this).find('.megamenu').removeClass('open');
-			jQuery(this).removeClass('open');
-			// jQuery(this).parent('li').removeClass('active');
-		});
-		jQuery('.main-menu > li.sml-menu').hover(function (e) {
-			e.preventDefault()
-			jQuery('body').addClass('sml-menu-opened');
-			jQuery('body').removeClass('menu-opened');
-			e.stopPropagation();
-		}, function (e) {
-			e.preventDefault()
-			jQuery('body').removeClass('sml-menu-opened');
-		});
-	}
-	jQuery('.megamenu li.active').parents('li').toggleClass('active');
-
-	//Recent Menu option
-	if (jQuery(window).width() > 1024) {
-		jQuery(".megamenu .detailTab .tabing").hover(function () {
-			var $this = jQuery(this);
-			var tabId = $this.attr('data-tab');
-			$this.closest('.mainTabing').find('.tabing').removeClass("current");
-			$this.closest('.mainTabing').find(".accoContain").removeClass("current in");
-			$this.addClass("current");
-			$this.closest('.mainTabing').find("#" + tabId).addClass("current");
-			$this.closest('.mainTabing').find("#" + tabId).addClass("in");
-			jQuery('.testimonials-list .list-slider').slick('refresh');
-		});
-	}
-
-	jQuery('.submenu-toggle').click(function () {
-		jQuery(this).parents('.has-menu-3-lvl').toggleClass('open')
-		jQuery(this).parents('.has-menu-3-lvl').find('.lvl-3-menu').toggleClass('open');
-	});
-
-	//Contact title dropdown start
-	jQuery('.contact-title').click(function () {
-		jQuery('#contact-dropdown').toggleClass('open');
-		jQuery(this).toggleClass('open');
-	});
-	jQuery('#contact-dropdown li').click(function (e) {
-		e.preventDefault();
-		jQuery('#contact-dropdown li').removeClass('active');
-
-		var item = jQuery(this).text();
-
-		jQuery('.contact-title span').text(item);
-		jQuery('#contact-dropdown').removeClass('open');
-		jQuery('.contact-title').removeClass('open');
-
-		jQuery(this).addClass('active');
-		jQuery('#contact-form input#enquiry_for').val(item);
-
-	});
-
-	//Contact title dropdown END
-
 
 	/* Add Lazy Load Start */
 	jQuery('.lazy').lazy({
@@ -240,46 +122,6 @@
 		}
 		prevScroll = currentSCroll;
 	}
-
-	/*************Brand logo START**********/
-	jQuery('.brand-slider .slides').slick({
-		lazyLoad: 'ondemand',
-		slidesToShow: 6,
-		slidesToScroll: 1,
-		dots: false,
-		infinite: true,
-		arrows: false,
-		centerMode: false,
-		autoplay: true,
-		autoplaySpeed: 3000,
-		responsive: [
-			{
-				breakpoint: 1200,
-				settings: {
-					slidesToShow: 6
-				}
-			},
-			{
-				breakpoint: 991,
-				settings: {
-					slidesToShow: 4
-				}
-			},
-			{
-				breakpoint: 767,
-				settings: {
-					slidesToShow: 3
-				}
-			},
-			{
-				breakpoint: 480,
-				settings: {
-					slidesToShow: 2
-				}
-			}
-		]
-	})
-	/*************brand-slider logo END**********/
 
 	/*************Common services banner logo START**********/
 	jQuery('.res-banner .logos-slider .slides').slick({
@@ -443,14 +285,3 @@ equalheight = function (container) {
 		}
 	});
 }
-
-(function ($) {
-	setInterval(() => {
-		jQuery.each(jQuery('iframe'), (arr, x) => {
-			let src = jQuery(x).attr('src');
-			if (src && src.match(/(ads-iframe)|(disqusads)/gi)) {
-				jQuery(x).remove();
-			}
-		});
-	}, 300);
-})(jQuery);
