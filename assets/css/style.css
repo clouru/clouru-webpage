@@ -18,3 +18,8 @@ footer#colophon .ftr-locations ul{justify-content: center;}
 .digital-outsourcing-agency .services-main .item, .ppc-testimonials .slides {
     display: grid;
 }
+@media (max-width: 390px){
+    .digital-outsourcing-agency .services-main .service-box .box-title {
+        max-width: 230px;
+    }
+}
