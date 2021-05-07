@@ -510,7 +510,7 @@
 /*benefits-main START*/
 
 /* Get in touch Section START*/
-.get-in-touch-section {padding: 118px 0; background-size: cover; position: relative; background-position: center;}
+.get-in-touch-section {padding: 118px 0; position: relative;background-size: 100% !important; background-position-y: 8% !important;}
 .get-in-touch-section:before { content: ""; position: absolute; top: 0; left: 0; bottom: 0; right: 0;background-color:rgba(48,48,48,0.9);background-size: cover; background-position: center center;} 
 .get-in-touch-content { position: relative;}
 .get-in-touch-content h3 { color: #fff;margin-bottom:0;line-height:40px} 
@@ -3294,7 +3294,8 @@ body.open-custom-popup .site-header.allot-position{z-index:-1}
 .digital-outsourcing-agency .nums ul li h4{font-size:45px;margin-bottom:10px;}
 .digital-outsourcing-agency .nums ul li p{font-size:16px;font-weight:400}
 
-.digital-outsourcing-agency .get-in-touch-section:before{background-color:rgba(0,0,0,0.9)}
+/* .digital-outsourcing-agency .get-in-touch-section:before{background-color:rgba(0,0,0,0.9)} */
+.digital-outsourcing-agency .get-in-touch-section:before{background-color: unset;}
 
 .digital-outsourcing-agency footer .footer-menu{display:none;}
 .digital-outsourcing-agency footer .subscribe{display:none;}
