@@ -17463,7 +17463,7 @@ footer {
       footer .footer-contact .email a {
         color: #FFFFFF; }
         footer .footer-contact .email a:hover {
-          color: #A4D6E8; }
+          color: #FFF; }
   footer .ftr-locations {
     border-top: solid 1px #4d4e4e;
     border-bottom: solid 1px #4d4e4e;
@@ -17474,8 +17474,8 @@ footer {
       align-items: center;
       margin: 0 -50px; }
       footer .ftr-locations ul li {
-        flex: 0 0 25%;
-        max-width: 25%;
+        /* flex: 0 0 25%; */
+        /* max-width: 25%; */
         color: #E2E2E2;
         min-height: 140px;
         padding: 0 50px;
@@ -17502,7 +17502,7 @@ footer {
           position: absolute;
           width: 1px;
           top: 0;
-          right: 30px; }
+          right: 0; }
         footer .ftr-locations ul li:last-child {
           padding-right: 0; }
           footer .ftr-locations ul li:last-child:after {
@@ -17517,7 +17517,7 @@ footer {
       footer .ftr-locations ul {
         margin: 0; }
         footer .ftr-locations ul li {
-          padding: 0 30px;
+          padding: 0 60px;
           min-height: 130px; }
           footer .ftr-locations ul li .address {
             font-size: 14px; }
