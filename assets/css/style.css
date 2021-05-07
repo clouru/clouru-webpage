@@ -11,6 +11,12 @@ footer#colophon {
     background-size: 100% !important;
     background-position-y: 100% !important;
 }
+@media (max-width: 767px){
+    footer#colophon {
+        background-size: cover !important;
+        background-position: center;
+    }
+}
 footer#colophon .ftr-locations ul{justify-content: center;}
 .digital-outsourcing-agency .clutch-pg .banner .item {
     align-items: center;
