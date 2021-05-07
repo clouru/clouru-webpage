@@ -15,6 +15,6 @@ footer#colophon .ftr-locations ul{justify-content: center;}
 .digital-outsourcing-agency .clutch-pg .banner .item {
     align-items: center;
 }
-.digital-outsourcing-agency .services-main .item {
+.digital-outsourcing-agency .services-main .item, .ppc-testimonials .slides {
     display: grid;
 }
