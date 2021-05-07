@@ -6,3 +6,10 @@
 .slides {
     display: flex;
 }
+
+.digital-outsourcing-agency .banner .left-side h1 {
+    color: #A4D6E8;
+}
+.cta-button, input[type="submit"] {
+    background: #A4D6E8;
+}
