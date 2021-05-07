@@ -6,10 +6,12 @@
 .slides {display: flex;}
 .digital-outsourcing-agency .banner .left-side h1 {color: #A4D6E8;}
 .cta-button, input[type="submit"] {background: #A4D6E8;}
-.digital-outsourcing-agency .clutch-pg .banner .logos-slider {visibility: hidden;opacity: 0;}
 footer#colophon {
     background: url(../images/agency-banner.png);
     background-size: 100% !important;
     background-position-y: 100% !important;
 }
 footer#colophon .ftr-locations ul{justify-content: center;}
+.digital-outsourcing-agency .clutch-pg .banner .item {
+    align-items: center;
+}
