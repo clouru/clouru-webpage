@@ -4088,47 +4088,47 @@ body.open-custom-popup .site-header.allot-position{z-index:-1}
 }
 /*talentFaq END*/
 
-/*uplers-advantages START*/
-.uplers-advantages{padding:150px 0 20px;background:#171717;color:#FFF}
-.uplers-advantages .container{max-width:1240px;}
-.uplers-advantages h3{font-size:45px;text-align:center;margin-bottom:95px}
-.uplers-advantages h3 .underline{background-image:linear-gradient(transparent calc(100% - 2px), #A4D6E8 10px);}
-.uplers-advantages .iconBox{margin-bottom:130px;display:flex;}
-.uplers-advantages .iconBox figure{flex: 0 0 100px; max-width: 100px; text-align: right;}
-.uplers-advantages .iconBox .info{padding-left:20px}
-.uplers-advantages .iconBox .info h4{font-size:30px;font-weight:400;margin-bottom:20px}
-.uplers-advantages .iconBox .info p{font-size:18px;line-height:1.5;margin: 0}
+/*clouru-advantages START*/
+.clouru-advantages{padding:150px 0 20px;background:#171717;color:#FFF}
+.clouru-advantages .container{max-width:1240px;}
+.clouru-advantages h3{font-size:45px;text-align:center;margin-bottom:95px}
+.clouru-advantages h3 .underline{background-image:linear-gradient(transparent calc(100% - 2px), #A4D6E8 10px);}
+.clouru-advantages .iconBox{margin-bottom:130px;display:flex;}
+.clouru-advantages .iconBox figure{flex: 0 0 100px; max-width: 100px; text-align: right;}
+.clouru-advantages .iconBox .info{padding-left:20px}
+.clouru-advantages .iconBox .info h4{font-size:30px;font-weight:400;margin-bottom:20px}
+.clouru-advantages .iconBox .info p{font-size:18px;line-height:1.5;margin: 0}
 @media(max-width:1550px){
-    .uplers-advantages{padding:100px 0 20px}
-    .uplers-advantages h3{font-size:35px;margin-bottom:80px}
-    .uplers-advantages .iconBox{margin-bottom:80px}
-    .uplers-advantages .iconBox .info h4{font-size:25px;margin-bottom:15px}
+    .clouru-advantages{padding:100px 0 20px}
+    .clouru-advantages h3{font-size:35px;margin-bottom:80px}
+    .clouru-advantages .iconBox{margin-bottom:80px}
+    .clouru-advantages .iconBox .info h4{font-size:25px;margin-bottom:15px}
 }
 @media(max-width:1200px){
-    .uplers-advantages {padding: 100px 0 40px; }
-    .uplers-advantages h3{font-size:30px;}
-    .uplers-advantages .iconBox{margin-bottom:50px}
-    .uplers-advantages .iconBox figure{flex: 0 0 50px; max-width: 50px;}
-    .uplers-advantages .iconBox figure img{max-width:50px;max-height:50px}
-    .uplers-advantages .iconBox .info h4{font-size:20px;line-height:1.5}
-    .uplers-advantages .iconBox .info p{font-size:16px}
+    .clouru-advantages {padding: 100px 0 40px; }
+    .clouru-advantages h3{font-size:30px;}
+    .clouru-advantages .iconBox{margin-bottom:50px}
+    .clouru-advantages .iconBox figure{flex: 0 0 50px; max-width: 50px;}
+    .clouru-advantages .iconBox figure img{max-width:50px;max-height:50px}
+    .clouru-advantages .iconBox .info h4{font-size:20px;line-height:1.5}
+    .clouru-advantages .iconBox .info p{font-size:16px}
 }
 @media(max-width:991px){
-    .uplers-advantages{padding:80px 0 30px}
-    .uplers-advantages h3{font-size:25px;margin-bottom:60px}
-    .uplers-advantages .iconBox .info p {font-size: 15px; }
+    .clouru-advantages{padding:80px 0 30px}
+    .clouru-advantages h3{font-size:25px;margin-bottom:60px}
+    .clouru-advantages .iconBox .info p {font-size: 15px; }
 }
 @media(max-width:767px){
-    .uplers-advantages{padding:60px 0 30px}
-    .uplers-advantages h3{font-size:22px;margin-bottom:40px;}
-    .uplers-advantages .iconBox {margin-bottom: 30px; }
-    .uplers-advantages .iconBox figure {flex: 0 0 40px; max-width: 40px; }
-    .uplers-advantages .iconBox figure img {max-width: 40px; max-height: 40px; }
-    .uplers-advantages .iconBox .info {padding-left: 15px; }
-    .uplers-advantages .iconBox .info h4{font-size:16px;font-weight:500}
+    .clouru-advantages{padding:60px 0 30px}
+    .clouru-advantages h3{font-size:22px;margin-bottom:40px;}
+    .clouru-advantages .iconBox {margin-bottom: 30px; }
+    .clouru-advantages .iconBox figure {flex: 0 0 40px; max-width: 40px; }
+    .clouru-advantages .iconBox figure img {max-width: 40px; max-height: 40px; }
+    .clouru-advantages .iconBox .info {padding-left: 15px; }
+    .clouru-advantages .iconBox .info h4{font-size:16px;font-weight:500}
 }
 
-/*uplers-advantages END*/
+/*clouru-advantages END*/
 
 .how-long{padding:0 15px 40px}
 .how-long > label{margin-bottom:15px;line-height:1.5}
@@ -4258,32 +4258,32 @@ body.open-custom-popup .site-header.allot-position{z-index:-1}
     .brandslogos h3{font-size:22px;margin-bottom:20px;}
     .hiring-ui-ux-designers .remote-ppc-resPg .acc-FAQ-section .heading-content {margin-bottom: 20px; }
 }
-.freelan-vs-uplers{background-size:cover !important;padding:100px 0}
-.freelan-vs-uplers h2{font-weight: 800; margin-bottom:30px; }
-.freelan-vs-uplers h2 span{font-weight:400}
-.freelan-vs-uplers p {font-size: 30px; line-height: 1.3;margin-bottom:40px}
-.freelan-vs-uplers ul li {font-weight: 500; font-size: 25px; margin-bottom: 30px; border-left: solid 5px #000; padding: 10px 0 15px 15px; }
-.freelan-vs-uplers ul li h4 {margin-bottom: 8px; font-size: 30px; }
-.freelan-vs-uplers ul li h4 span {background: #000; color: #A4D6E8; padding: 0 10px; }
+.freelan-vs-clouru{background-size:cover !important;padding:100px 0}
+.freelan-vs-clouru h2{font-weight: 800; margin-bottom:30px; }
+.freelan-vs-clouru h2 span{font-weight:400}
+.freelan-vs-clouru p {font-size: 30px; line-height: 1.3;margin-bottom:40px}
+.freelan-vs-clouru ul li {font-weight: 500; font-size: 25px; margin-bottom: 30px; border-left: solid 5px #000; padding: 10px 0 15px 15px; }
+.freelan-vs-clouru ul li h4 {margin-bottom: 8px; font-size: 30px; }
+.freelan-vs-clouru ul li h4 span {background: #000; color: #A4D6E8; padding: 0 10px; }
 @media(max-width:1550px){
-    .freelan-vs-uplers p{font-size:20px;}
-    .freelan-vs-uplers ul li{font-size:18px;}
-    .freelan-vs-uplers ul li h4{font-size:22px;}
+    .freelan-vs-clouru p{font-size:20px;}
+    .freelan-vs-clouru ul li{font-size:18px;}
+    .freelan-vs-clouru ul li h4{font-size:22px;}
 }
 @media(max-width:1200px){
-    .freelan-vs-uplers h2{font-size:30px}  
-    .freelan-vs-uplers p{font-size:20px}
+    .freelan-vs-clouru h2{font-size:30px}  
+    .freelan-vs-clouru p{font-size:20px}
 }
 @media(max-width:991px){
-    .freelan-vs-uplers h2{font-size:25px}  
-    .freelan-vs-uplers p{font-size:16px}
+    .freelan-vs-clouru h2{font-size:25px}  
+    .freelan-vs-clouru p{font-size:16px}
 }
 @media(max-width:767px){
-    .freelan-vs-uplers{padding:60px 0}
-    .freelan-vs-uplers h2{font-size:22px}
-    .freelan-vs-uplers p{font-size:15px}
-    .freelan-vs-uplers ul li{font-size:15px}
-    .freelan-vs-uplers ul li h4{font-size:20px;}
+    .freelan-vs-clouru{padding:60px 0}
+    .freelan-vs-clouru h2{font-size:22px}
+    .freelan-vs-clouru p{font-size:15px}
+    .freelan-vs-clouru ul li{font-size:15px}
+    .freelan-vs-clouru ul li h4{font-size:20px;}
 }
 
 /*.guest-posting-services footer{display:none;}*/

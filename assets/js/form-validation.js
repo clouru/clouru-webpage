@@ -676,7 +676,7 @@ var gtmYTplayers = [];
                 fd.append("emp_official_email", jQuery("input[name='emp_official_email']").val());  
                 fd.append("candidate_name", jQuery("input[name='candidate_name']").val());  
                 fd.append("position_refer", jQuery("input[name='position_refer']").val());  
-                fd.append("associated-uplers", jQuery("input[name='how_are_you_associated_with_uplers']:checked").val());  
+                fd.append("associated-clouru", jQuery("input[name='how_are_you_associated_with_clouru']:checked").val());  
                 fd.append("candidate_phone", jQuery("input[name='phone']").val());  
                 fd.append("page_title", jQuery("input[name='page_title']").val());  
                 fd.append('action', 'employee_referral_form_ajax');              
@@ -760,20 +760,20 @@ var gtmYTplayers = [];
                             /*console.log('Test');
                             if ($("input[name='checkbox']").attr('checked'))
                             {
-                                window.open("https://www.uplers.com/wp-content/uploads/2020/04/Uplers-HubSpot-US.pdf", 'Download');
+                                window.open("https://www.clouru.com/wp-content/uploads/2020/04/Clouru-HubSpot-US.pdf", 'Download');
                             }if ($("input[name='how_urgent_is_your_project_']").attr('checked'))
                             {
-                                window.open("https://www.uplers.com/wp-content/uploads/2020/04/Uplers-HubSpot-US.pdf", 'Download');
+                                window.open("https://www.clouru.com/wp-content/uploads/2020/04/Clouru-HubSpot-US.pdf", 'Download');
                             }*/
 
                             if(form_id == "covid-survey-form"){ 
-                                window.open("https://www.uplers.com/wp-content/themes/uplers/assets/pdf/The-Impact-of-COVID-19-on-Digital-Agencies-A-Survey-Report.pdf", 'Download');
+                                window.open("https://www.clouru.com/wp-content/themes/clouru/assets/pdf/The-Impact-of-COVID-19-on-Digital-Agencies-A-Survey-Report.pdf", 'Download');
                             }
                             else if(form_id == "guide-to-building-offshore-teams"){ 
-                                window.open("https://www.uplers.com/offshore/A-guide-to-building-offshore-teams-in-2021.pdf", 'Download');
+                                window.open("https://www.clouru.com/offshore/A-guide-to-building-offshore-teams-in-2021.pdf", 'Download');
                             }
                             else if(form_id == "offshore-regions-comparison-guide"){ 
-                                window.open("https://www.uplers.com/offshore/Offshore-regions-comparison-guide.pdf", 'Download');
+                                window.open("https://www.clouru.com/offshore/Offshore-regions-comparison-guide.pdf", 'Download');
                             }
                             
                             if(form_id == "rate_card_form"){ 
@@ -1170,11 +1170,11 @@ var gtmYTplayers = [];
                         if ($("input[name='download_ratecard']").attr('checked'))
                         {
                             var url      = window.location.href;     // Returns full URL (https://example.com/path/example.html)
-                            if(url == "https://www.uplers.com/design-services/")
+                            if(url == "https://www.clouru.com/design-services/")
                             {
-                                window.open("https://www.uplers.com/wp-content/uploads/2020/04/Uplers-Design-US.pdf", 'Download');
+                                window.open("https://www.clouru.com/wp-content/uploads/2020/04/Clouru-Design-US.pdf", 'Download');
                             }else{
-                                window.open("https://www.uplers.com/wp-content/uploads/2020/04/Uplers-HubSpot-US.pdf", 'Download');
+                                window.open("https://www.clouru.com/wp-content/uploads/2020/04/Clouru-HubSpot-US.pdf", 'Download');
                             }
                             
                         }
