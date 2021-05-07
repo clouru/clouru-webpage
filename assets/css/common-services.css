@@ -3230,7 +3230,6 @@ body.open-custom-popup .site-header.allot-position{z-index:-1}
 .digital-outsourcing-agency .services-main .service-box .box-title {font-size: 16px; line-height: 22px; margin-bottom: 22px; width: 100%; color: #000000; }
 .digital-outsourcing-agency .services-main .service-box .box-link {color: #000000; font-weight: 500; position: relative; font-size: 14px; margin-bottom: 9px; display: inline-block; margin-top: auto; min-height: 14px; }
 .digital-outsourcing-agency .services-main .service-box .box-link:after {position: absolute; content: ""; background: #000000; height: 2px; width: 100%; bottom: -4px; left: 0; -webkit-transition: 0.5s all; transition: 0.5s all; }
-.digital-outsourcing-agency .services-main .service-box.no-box-link {min-height: 125px; } 
 .digital-outsourcing-agency .services-main .service-box .icon {position: absolute; right: 10px; bottom: 10px; }
 .digital-outsourcing-agency .services-main .service-box:hover {-webkit-box-shadow: 3px 3px 0px black; box-shadow: 3px 3px 0px black; }
 .digital-outsourcing-agency .services-main .btn { width: 100%; }
@@ -3239,10 +3238,12 @@ body.open-custom-popup .site-header.allot-position{z-index:-1}
 .digital-outsourcing-agency .services-main .service-box .box-title {font-size: 16px; line-height: 22px; margin-bottom: 22px; width: 100%; color: #000000; }
 .digital-outsourcing-agency .services-main .service-box .box-link {color: #000000; font-weight: 500; position: relative; font-size: 14px; margin-bottom: 9px; display: inline-block; margin-top: auto; min-height: 14px; }
 .digital-outsourcing-agency .services-main .service-box .box-link:after {position: absolute; content: ""; background: #000000; height: 2px; width: 100%; bottom: -4px; left: 0; -webkit-transition: 0.5s all; transition: 0.5s all; }
-.digital-outsourcing-agency .services-main .service-box.no-box-link {min-height: 125px; } 
 .digital-outsourcing-agency .services-main .service-box .icon {position: absolute; right: 10px; bottom: 10px; }
 .digital-outsourcing-agency .services-main .service-box:hover {-webkit-box-shadow: 3px 3px 0px black; box-shadow: 3px 3px 0px black; }
 
+@media (min-width: 481px){
+    .digital-outsourcing-agency .services-main .service-box.no-box-link {min-height: 125px; }
+}
 
 .digital-marketing-services .banner .left-side{color:#FFF}
 .digital-marketing-services .banner .left-side h1{color:#A4D6E8;margin-bottom:30px}
