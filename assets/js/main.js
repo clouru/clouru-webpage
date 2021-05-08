@@ -214,6 +214,11 @@ jQuery(window).load(function () {
 	}
 });
 
+// Footer tabBar
+$(".tap-click").click(function() {
+	$(this).next().slideToggle();
+});
+
 
 // ==============================================================================
 // Create new Cookies
