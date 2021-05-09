@@ -515,7 +515,7 @@ var gtmYTplayers = [];
     /*********  Enquiry Form AJAX Submit  ********/
     /**************************************************/
 
-    jQuery("#rate_card_form, #employee-referral-form, #enquiry-form, #network-form, #callback-form, #popup-validation, .poc-form, #paid-form, #quotes-form, #covid-survey-form, #guide-to-building-offshore-teams, #offshore-regions-comparison-guide").submit(function(event) {
+    jQuery("#rate_card_form, #employee-referral-form, #network-form, #callback-form, #popup-validation, .poc-form, #paid-form, #quotes-form, #covid-survey-form, #guide-to-building-offshore-teams, #offshore-regions-comparison-guide").submit(function(event) {
         event.preventDefault();
         var $thisForm = $(this);
         var data = {};

@@ -67,8 +67,8 @@
                       <div class="heading-content">
                         <h2 class="title text-left">Inquire Now!</h2>
                       </div>
-                      <form id="enquiry-form" method="post">
-                        <input type="hidden" name="action" value="enquiry_form_ajax">
+                      <form name="contact" method="POST" data-netlify="true">
+                        <input type="hidden" name="form-name" value="contact" />
                         <input type="hidden" name="page_title" value="Digital Outsourcing Agency - clouru">
                         <div class="row justify-content-center">
                           <div class="col-sm-12">
@@ -596,13 +596,19 @@
   </div><!-- #page -->
   
   <div class="back-to-top"><i class="fa fa-long-arrow-up" aria-hidden="true"></i></div>
+
+  <!-- A little help for the Netlify post-processing bots -->
+  <form name="contact" netlify netlify-honeypot="bot-field" action='/' hidden>
+    <input type="text" name="name" />
+    <input type="email" name="email" />
+    <textarea name="message"></textarea>
+  </form>
  
   <!--googleon: all-->
   <script type="text/javascript" src="assets/js/jquery.lazy.min.js" id="lazy-js"></script>
   <script type="text/javascript" src="assets/js/form-validation.js" id="form-validation-js"></script>
   <script type="text/javascript" src="assets/js/merge.min.js" id="merge-min-js-js"></script>
   <script type="text/javascript" src="assets/js/sticky-div-min.js" id="sticky-div-min-js"></script>
-  <script type="text/javascript" src="assets/js/smtp.js" id="mail-js"></script>
   <script type="text/javascript" src="assets/js/main.js" id="main-js-js"></script>
 
 </body>

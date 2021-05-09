@@ -215,24 +215,8 @@ jQuery(window).load(function () {
 });
 
 // Footer tabBar
-
-// Form submit
-$("#form_submit").click(function() {
-	var name = $("#user_name");
-	var mail = $("#user_mail");
-	var phone = $("#user_phone");
-	var message = $("#user_message");
-	Email.send({
-		Host: "smtp.gmail.com",
-		Username : "toptalentdev@gmail.com",
-		Password : "securitykis0428#",
-		To : 'ecomdev.alex@gmail.com',
-		From : "luuca.s.antoss94@gmail.com",
-		Subject : "Hello test",
-		Body : "Hello test body",
-		}).then(
-			message => alert("mail sent successfully")
-		);	
+$(".tap-click").click(function() {
+	$(this).next().slideToggle();
 });
 
 
