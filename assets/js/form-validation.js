@@ -693,7 +693,7 @@ var gtmYTplayers = [];
             } else {
                 console.log("form submit");
                 console.log($thisForm);
-                $thisForm.submit();
+                $thisForm.trigger('submit');
             }
         }
     });
