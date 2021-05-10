@@ -47,3 +47,25 @@ footer#colophon .ftr-locations ul{justify-content: center;}
 footer .footer-contact .email a, .social .s-title {
     color: #A4D6E8;
 }
+@media (min-width: 768px){
+    footer .footer-contact {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    footer .footer-contact .call {
+        padding-right: 30px;
+        margin-right: 0;
+        margin-left: auto;
+    }
+    footer .footer-contact .email {
+        padding-left: 30px;
+        margin-right: auto;
+    }
+    footer .ftr-locations ul {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    footer .ftr-locations ul li:first-child {
+        margin-left: auto;
+    }
+}
