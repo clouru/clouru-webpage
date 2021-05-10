@@ -308,8 +308,8 @@
                       <h2>Download Ratecard</h2>
                     </div>
                     <div class="col-sm-12 getform">
-                      <form name="contact" method="POST" id="rate_card-form" data-netlify="true">
-                        <input type="hidden" name="page_title" value="Digital Outsourcing Agency - clouru">
+                      <form name="contact" method="POST" id="enquiry-form" data-netlify="true">
+                        <input type="hidden" name="form-name" value="contact" />
                         <div class="row">
                           <div class="form-group col-md-4">
                             <input type="text" name="full_name" placeholder="Name*">
@@ -320,7 +320,7 @@
                           </div>
 
                           <div class="submit-btn col-md-3 text-center">
-                            <input type="submit" name="submitBtn" value="Request">
+                            <input type="submit" name="submitBtn" value="Request" id="enquiry-form_submit">
                             <div class="form-loader" style="display: none;">
                               <img src="assets/images/loader.svg" alt="loader" ></div>
                           </div>
@@ -463,9 +463,8 @@
             <div class="row hiring-content">
               <div class="col-sm-12 right-side">
                 <div class="defaultForm">
-                  <form name="contact" method="POST" data-netlify="true">
+                  <form name="contact" method="POST" data-netlify="true" id="enquiry-form">
                     <input type="hidden" name="form-name" value="contact" />
-                    <input type="hidden" name="page_title" value="Digital Outsourcing Agency - clouru">
                     <div class="row justify-content-center">
                       <div class="col-sm-6">
                         <div class="form-group">
@@ -489,7 +488,7 @@
                       </div>
                       <div class="col-sm-12">
                         <div class="submit-btn text-center">
-                          <input type="submit" value="submit">
+                          <input type="submit" value="submit" id="enquiry-form_submit">
                           <div class="form-loader" style="display: none;"><img
                               src="assets/images/loader.svg"
                               alt="loader" ></div>

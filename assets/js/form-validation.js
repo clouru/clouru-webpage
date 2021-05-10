@@ -1,25 +1,13 @@
-// var gtmYTplayers = [];
-
-// (function( $ ) {
-    // 'use strict';
-
     var filter = /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
     var num_filter = /^\d+$/;
 
-    // jQuery('.overlay-loader-blk').hide();
-    // jQuery('.form-loader').hide();
-
     $(document).on("click", "#enquiry-form_submit", function(event){
-    // jQuery("#enquiry-form").submit(function(event) {
         event.preventDefault();
-        // $("#enquiry-form").submit(function(e){ e.preventDefault()})
         
-        var $thisForm = $("#enquiry-form");
+        var $thisForm = $(this).closest("form");
         var data = {};
         var fieldName = '';
         var popError = false;
-
-        // var form_id = $("#enquiry-form").attr("id");
 
         $thisForm.find('span.error-message').remove();
         jQuery($thisForm).find('input, textarea').each(function(i, field) {
@@ -139,12 +127,8 @@
             jQuery(".error-message").show();
             return false;
         } else {
-
             $thisForm.removeClass('invalid');
             jQuery(".error-message").hide();
-            var form = $thisForm.serialize();
-            $("#enquiry-form").submit();
+            $thisForm.submit();
         }
     });
-
-// })( jQuery );
