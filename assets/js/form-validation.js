@@ -478,36 +478,6 @@ var gtmYTplayers = [];
             $thisForm.removeClass('invalid');
             jQuery(".error-message").hide();
             var form = $thisForm.serialize();
-
-            jQuery.ajax({
-                type: 'POST',
-                url: adminurl,
-                data: form+'&id='+get_current_page_id(),
-                dataType: 'json',
-                beforeSend: function() {
-                    $thisForm.find('.form-loader').show();
-                },
-                success: function(data) {
-
-                    if (data.result == 'fail') {
-                        $thisForm.find('.ajax-message').html(data.message);
-                        $thisForm.find('.form-loader').hide();
-                    } else {
-                        $thisForm.find('.form-loader').hide();
-                        $thisForm.find('.ajax-message').html(data.message);
-                        // window.open(data.download, 'Download');                       
-
-                        if(typeof data.download !== 'undefined')
-                        {
-                            setTimeout( startDownload(data.download), 2000);
-                        }
-                        $thisForm.trigger("reset");
-                    }
-                },
-                error: function() {
-                    alert("Error: There is some issue please try again.")
-                }
-            });
         }
     });
 
@@ -515,7 +485,7 @@ var gtmYTplayers = [];
     /*********  Enquiry Form AJAX Submit  ********/
     /**************************************************/
 
-    jQuery("#rate_card_form, #employee-referral-form, #network-form, #callback-form, #popup-validation, .poc-form, #paid-form, #quotes-form, #covid-survey-form, #guide-to-building-offshore-teams, #offshore-regions-comparison-guide").submit(function(event) {
+    jQuery("#rate_card_form, #employee-referral-form, #enquiry-form, #network-form, #callback-form, #popup-validation, .poc-form, #paid-form, #quotes-form, #covid-survey-form, #guide-to-building-offshore-teams, #offshore-regions-comparison-guide").submit(function(event) {
         event.preventDefault();
         var $thisForm = $(this);
         var data = {};
@@ -721,74 +691,9 @@ var gtmYTplayers = [];
                 });
 
             } else {
-
-                jQuery.ajax({
-                    type: 'POST',
-                    url: adminurl,
-                    data: form,
-                    dataType: 'json',
-                    beforeSend: function() {
-                        $thisForm.find('.form-loader').show();
-                    },
-                    success: function(data) {
-
-                        console.log('success');
-
-                        if (data.result == 'fail') {
-                            console.log('success if');
-                            $thisForm.find('.ajax-message').html(data.message);
-                            $thisForm.find('.form-loader').hide();
-                        } else {
-                            console.log('success else'); 
-                            $thisForm.find('.form-loader').hide();
-                            $thisForm.find('.ajax-message').html(data.message);
-
-                            if(typeof data.ebook !== 'undefined')
-                            {
-                                setTimeout(function(){
-                                    window.open(data.ebook,'_blank');
-                                }, 2000);
-                            }
-
-                            // console.log("book"+data.ebook);
-                            // if(data.ebook !== null){
-                            //  setTimeout(function(){
-                            //      window.open(data.ebook,'_blank');
-                            //  }, 2000);
-                            // }
-
-                            /*console.log('Test');
-                            if ($("input[name='checkbox']").attr('checked'))
-                            {
-                                window.open("https://www.clouru.com/wp-content/uploads/2020/04/Clouru-HubSpot-US.pdf", 'Download');
-                            }if ($("input[name='how_urgent_is_your_project_']").attr('checked'))
-                            {
-                                window.open("https://www.clouru.com/wp-content/uploads/2020/04/Clouru-HubSpot-US.pdf", 'Download');
-                            }*/
-
-                            if(form_id == "covid-survey-form"){ 
-                                window.open("https://www.clouru.com/wp-content/themes/clouru/assets/pdf/The-Impact-of-COVID-19-on-Digital-Agencies-A-Survey-Report.pdf", 'Download');
-                            }
-                            else if(form_id == "guide-to-building-offshore-teams"){ 
-                                window.open("https://www.clouru.com/offshore/A-guide-to-building-offshore-teams-in-2021.pdf", 'Download');
-                            }
-                            else if(form_id == "offshore-regions-comparison-guide"){ 
-                                window.open("https://www.clouru.com/offshore/Offshore-regions-comparison-guide.pdf", 'Download');
-                            }
-                            
-                            if(form_id == "rate_card_form"){ 
-                                var download_url = jQuery('#download_url').val();
-                                window.open(download_url, 'Download');
-                            }
-                            
-                            $thisForm.trigger("reset");
-                        }
-                    },
-                    error: function(err) {
-                        alert("Error: There is some issue please try again.");
-                        console.log(err);
-                    }
-                });
+                console.log("form submit");
+                console.log($thisForm);
+                $thisForm.submit();
             }
         }
     });

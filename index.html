@@ -67,7 +67,7 @@
                       <div class="heading-content">
                         <h2 class="title text-left">Inquire Now!</h2>
                       </div>
-                      <form name="contact" method="POST" data-netlify="true">
+                      <form id="enquiry-form" name="contact" method="POST" data-netlify="true">
                         <input type="hidden" name="form-name" value="contact" />
                         <input type="hidden" name="page_title" value="Digital Outsourcing Agency - clouru">
                         <div class="row justify-content-center">
@@ -308,8 +308,7 @@
                       <h2>Download Ratecard</h2>
                     </div>
                     <div class="col-sm-12 getform">
-                      <form id="rate_card-form" method="post">
-                        <input type="hidden" name="action" value="rate_card_form_ajax">
+                      <form name="contact" method="POST" id="rate_card-form" data-netlify="true">
                         <input type="hidden" name="page_title" value="Digital Outsourcing Agency - clouru">
                         <div class="row">
                           <div class="form-group col-md-4">
@@ -321,7 +320,7 @@
                           </div>
 
                           <div class="submit-btn col-md-3 text-center">
-                            <input type="submit" name="submitBtn" value="Download">
+                            <input type="submit" name="submitBtn" value="Request">
                             <div class="form-loader" style="display: none;">
                               <img src="assets/images/loader.svg" alt="loader" ></div>
                           </div>
