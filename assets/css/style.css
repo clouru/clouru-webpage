@@ -1301,6 +1301,7 @@ footer .footer-contact .call a:hover {
 }
 footer .footer-contact .email {
   font-size: 18px;
+  color: #ffffff;
 }
 footer .footer-contact .email a {
   color: #ffffff;
@@ -1820,7 +1821,7 @@ body.open-custom-popup .site-header.allot-position {
   }
 }
 .ppc-testimonials {
-  background: #f6f7f9;
+  background: #ffffff;
   padding: 120px 0 180px;
   text-align: center;
 }
@@ -2101,7 +2102,8 @@ body.open-custom-popup .site-header.allot-position {
   margin-bottom: 20px;
 }
 .digital-outsourcing-agency .services-main {
-  padding: 8px 0 80px;
+  background: #f6f7f9;
+  padding: 50px 0 80px;
 }
 .digital-outsourcing-agency .services-main .container {
   max-width: 1170px;
