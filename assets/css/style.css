@@ -2101,7 +2101,7 @@ body.open-custom-popup .site-header.allot-position {
   margin-bottom: 20px;
 }
 .digital-outsourcing-agency .services-main {
-  padding: 100px 0 80px;
+  padding: 8px 0 80px;
 }
 .digital-outsourcing-agency .services-main .container {
   max-width: 1170px;
@@ -2110,7 +2110,7 @@ body.open-custom-popup .site-header.allot-position {
   margin-bottom: 97px;
 }
 .digital-outsourcing-agency .services-main .item {
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 .digital-outsourcing-agency .services-main .service-box {
   /* background: #a4d6e8; */
@@ -2130,6 +2130,12 @@ body.open-custom-popup .site-header.allot-position {
 .digital-outsourcing-agency .services-main .heading-content {
   text-align: center;
   margin-bottom: 40px;
+}
+@media (max-width: 767px){
+  .digital-outsourcing-agency .services-main .heading-content {
+    text-align: center;
+    margin-bottom: 0;
+  }
 }
 .digital-outsourcing-agency .services-main .service-box .box-title {
   font-size: 16px;
@@ -2264,10 +2270,6 @@ body.open-custom-popup .site-header.allot-position {
   }
 }
 @media (max-width: 767px) {
-  .digital-outsourcing-agency .services-main .item {
-    flex: 0 0 50%;
-    max-width: 50%;
-  }
   .digital-outsourcing-agency .clutch-pg .banner .item {
     height: auto;
     padding: 100px 0 50px 0;
@@ -2376,7 +2378,7 @@ footer#colophon .ftr-locations ul {
 }
 @media (max-width: 390px) {
   .digital-outsourcing-agency .services-main .service-box .box-title {
-    max-width: 230px;
+    /* max-width: 230px; */
   }
 }
 @media (max-width: 767px) {
@@ -2440,11 +2442,6 @@ footer .footer-contact .email a,
   grid-template-columns: 1fr 1fr;
   grid-column-gap: 80px;
 }
-.service-wrap > div .div-wrap {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-column-gap: 30px;
-}
 .wrap-h2-title {
   text-align: center;
   margin-bottom: 50px;
@@ -2453,4 +2450,35 @@ footer .footer-contact .email a,
   max-width: 290px;
   margin-left: auto;
   margin-right: auto;
+}
+
+@media (min-width: 1215px){
+  .service-wrap > div .div-wrap {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 30px;
+  }
+}
+@media (max-width: 1215px){
+  .service-wrap {
+    padding: 0 20px;
+  }
+}
+@media (max-width: 767px){
+  .service-wrap {
+    grid-column-gap: 40px;
+  }
+
+  .wrap-h2-title {
+    padding-bottom: 5px;
+    font-size: 25px;
+    max-width: 200px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
+}
+@media (max-width: 610px){
+  .service-wrap {
+    grid-template-columns: 1fr;
+  }
 }
