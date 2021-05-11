@@ -2356,6 +2356,7 @@ body.open-custom-popup .site-header.allot-position {
 .cta-button,
 input[type="submit"] {
   background: #a4d6e8;
+  border-radius: 10px;
 }
 footer#colophon {
   background: url(../images/agency-banner.webp);
@@ -2428,14 +2429,14 @@ footer .footer-contact .email a,
   }
 }
 
-#enquiry-form input[type="text"], #enquiry-form input[type="email"], #enquiry-form textarea {
+.banner.res-banner input[type="text"], .banner.res-banner input[type="email"], .banner.res-banner textarea {
   color: #FFF;
   border-bottom: 1px solid #FFF;
 }
-#enquiry-form input[type="text"]:focus, #enquiry-form input[type="email"]:focus, #enquiry-form textarea:focus {
+.banner.res-banner input[type="text"]:focus, .banner.res-banner input[type="email"]:focus, .banner.res-banner textarea:focus {
   color: #FFF;
   border-bottom: 1px solid #a4d6e8;
 }
-#enquiry-form input[type="text"]::placeholder, #enquiry-form textarea::placeholder,  #enquiry-form input[type="email"]::placeholder{
+.banner.res-banner input[type="text"]::placeholder, .banner.res-banner textarea::placeholder,  .banner.res-banner input[type="email"]::placeholder{
   color: #FFF;
 }
