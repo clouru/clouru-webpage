@@ -2125,7 +2125,6 @@ body.open-custom-popup .site-header.allot-position {
   flex-wrap: wrap;
   min-height: 97px;
   transition: 0.3s all;
-  cursor: pointer;
   padding-top: 30px;
   /* max-height: 110px; */
 }
