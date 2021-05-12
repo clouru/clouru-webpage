@@ -717,7 +717,7 @@ input[type="submit"]:before {
 .cta-button:hover,
 input[type="submit"]:hover {
   color: #fff;
-  background: #000000;
+  background: #4F5357;
 }
 .cta-button:hover:before,
 input[type="submit"]:hover:before {
@@ -2131,7 +2131,7 @@ body.open-custom-popup .site-header.allot-position {
 }
 .digital-outsourcing-agency .services-main .heading-content {
   text-align: center;
-  margin-bottom: 30px;
+  margin-bottom: 40px;
 }
 .digital-outsourcing-agency .services-main .service-box .box-title {
   font-size: 16px;
@@ -2163,6 +2163,7 @@ body.open-custom-popup .site-header.allot-position {
 }
 .digital-outsourcing-agency .services-main .service-box:hover::after {
   height: 100%;
+  background: #4F5357;
 }
 .digital-outsourcing-agency .services-main .service-box:hover .box-title {
   color: #FFF;
