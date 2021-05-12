@@ -2137,14 +2137,14 @@ body.open-custom-popup .site-header.allot-position {
   margin-bottom: 10px;
   width: 100%;
   color: #000000;
-  max-width: calc(100% - 65px);
+  max-width: calc(100% - 57px);
   z-index: 1;
 }
 .digital-outsourcing-agency .services-main .service-box .icon {
   position: absolute;
   right: 10px;
   top: 50%;
-  transform: translateY(-50%);
+  transform: translateY(calc(-50% + 3px));
   z-index: 1;
 }
 .digital-outsourcing-agency .services-main .service-box::after {
