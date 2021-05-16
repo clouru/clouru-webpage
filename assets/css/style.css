@@ -1040,6 +1040,12 @@ ul li {
   margin-bottom: 24px;
   display: inline-block;
 }
+.fact-content h2 {
+  letter-spacing: -0.7px;
+  margin-bottom: 80px;
+  /* display: inline-block; */
+  text-align: center
+}
 .popup-main,
 .popup-main1 {
   position: fixed;
@@ -2202,17 +2208,17 @@ body.open-custom-popup .site-header.allot-position {
   flex-wrap: wrap;
   align-items: flex-end;
 }
-.digital-clouru .number-section {
+.digital-clouru .fact-section {
   background: #f3f3f3;
-  padding: 100px 0;
+  padding: 75px 0;
 }
 .digital-clouru .nums ul li p {
   margin: 0;
 }
-.digital-clouru .clutch-pg .number-section {
+.digital-clouru .clutch-pg .fact-section {
   background: #fff;
 }
-.digital-clouru .clutch-pg .number-section .container {
+.digital-clouru .clutch-pg .fact-section .container {
   max-width: 1400px;
 }
 .digital-clouru .nums ul li h4 {
@@ -2269,7 +2275,7 @@ body.open-custom-popup .site-header.allot-position {
   .digital-clouru .banner .left-side p {
     font-size: 15px;
   }
-  .digital-clouru .clutch-pg .number-section {
+  .digital-clouru .clutch-pg .fact-section {
     padding: 60px 0;
   }
   .digital-clouru .clutch-pg .nums ul li {
@@ -2327,7 +2333,7 @@ body.open-custom-popup .site-header.allot-position {
 .clutch-pg .banner .container {
   max-width: 1300px;
 }
-.clutch-pg .number-section {
+.clutch-pg .fact-section {
   padding-bottom: 100px;
 }
 .clutch-pg .popup-main h2 {
@@ -2337,13 +2343,13 @@ body.open-custom-popup .site-header.allot-position {
   max-width: 1000px;
 }
 @media (max-width: 1200px) {
-  .clutch-pg .number-section {
+  .clutch-pg .fact-section {
     padding: 80px 0;
   }
   .clutch-pg .popup-main h2 {
     font-size: 30px;
   }
-  .clutch-pg .number-section {
+  .clutch-pg .fact-section {
     padding-bottom: 30px;
   }
   .clutch-pg .nums ul li {
