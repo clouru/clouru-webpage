@@ -1674,13 +1674,13 @@ footer .footer-right:before {
     margin: auto;
   }
 }
-.get-in-touch-section {
+.ratecard-download-section {
   padding: 118px 0;
   position: relative;
   background-size: 100% !important;
   background-position-y: 8% !important;
 }
-.get-in-touch-section:before {
+.ratecard-download-section:before {
   content: "";
   position: absolute;
   top: 0;
@@ -1691,14 +1691,14 @@ footer .footer-right:before {
   background-size: cover;
   background-position: center center;
 }
-.get-in-touch-content {
+.ratecard-download-content {
   position: relative;
 }
 @media (max-width: 1200px) {
-  .get-in-touch-section {
+  .ratecard-download-section {
     padding: 80px 0;
   }
-  .get-in-touch-content .cta-button {
+  .ratecard-download-content .cta-button {
     padding: 0 25px;
     line-height: 1.2;
     font-size: 16px;
@@ -1708,27 +1708,27 @@ footer .footer-right:before {
   }
 }
 @media (max-width: 1023px) {
-  .get-in-touch-content {
+  .ratecard-download-content {
     padding: 0;
   }
 }
 @media (max-width: 991px) {
-  .get-in-touch-content .cta-button {
+  .ratecard-download-content .cta-button {
     display: inline-block;
     min-height: 48px;
     line-height: 48px;
   }
 }
 @media (max-width: 767px) {
-  .get-in-touch-content {
+  .ratecard-download-content {
     text-align: center;
   }
-  .get-in-touch-section {
+  .ratecard-download-section {
     padding: 60px 0;
   }
 }
 @media (max-width: 480px) {
-  .get-in-touch-content .cta-button {
+  .ratecard-download-content .cta-button {
     font-size: 15px;
     display: flex;
     line-height: 1.2;
@@ -2031,32 +2031,32 @@ body.open-custom-popup .site-header.allot-position {
 .open-custom-popup .site-header {
   display: none;
 }
-.hiring-today {
+.contact-form-isolated {
   padding: 100px 0;
   background-color: #f2f2f2;
 }
-.hiring-today .hiring-content {
+.contact-form-isolated .contact-form-isolated-content {
   align-items: center;
 }
-.hiring-today h2 {
+.contact-form-isolated h2 {
   margin-bottom: 20px;
 }
-.hiring-today .submit-btn {
+.contact-form-isolated .submit-btn {
   max-width: 170px;
   text-align: center;
   width: 100%;
   margin-top: 20px;
 }
 @media (max-width: 1200px) {
-  .hiring-today {
+  .contact-form-isolated {
     padding: 80px 0;
   }
-  .hiring-today h2 {
+  .contact-form-isolated h2 {
     font-size: 30px;
   }
 }
 @media (max-width: 991px) {
-  .hiring-today h2 {
+  .contact-form-isolated h2 {
     font-size: 30px;
   }
 }
@@ -2091,30 +2091,30 @@ body.open-custom-popup .site-header.allot-position {
     margin-bottom: 15px;
   }
 }
-.hiring-today .defaultForm {
+.contact-form-isolated .defaultForm {
   padding: 0;
 }
-.hiring-today .defaultForm #enquiry-form .submit-btn {
+.contact-form-isolated .defaultForm #enquiry-form .submit-btn {
   max-width: inherit;
   text-align: left;
 }
-.hiring-today .defaultForm #enquiry-form .form-group {
+.contact-form-isolated .defaultForm #enquiry-form .form-group {
   margin-bottom: 20px;
 }
-.digital-outsourcing-agency .services-main {
+.digital-clouru .services-main {
   background: #f6f7f9;
   padding: 50px 0 80px;
 }
-.digital-outsourcing-agency .services-main .container {
+.digital-clouru .services-main .container {
   max-width: 1170px;
 }
-.digital-outsourcing-agency .services-main .heading-content {
+.digital-clouru .services-main .heading-content {
   margin-bottom: 97px;
 }
-.digital-outsourcing-agency .services-main .item {
+.digital-clouru .services-main .item {
   margin-bottom: 30px;
 }
-.digital-outsourcing-agency .services-main .service-box {
+.digital-clouru .services-main .service-box {
   /* background: #a4d6e8; */
   padding: 18px 30px;
   position: relative;
@@ -2129,17 +2129,17 @@ body.open-custom-popup .site-header.allot-position {
   padding-top: 30px;
   /* max-height: 110px; */
 }
-.digital-outsourcing-agency .services-main .heading-content {
+.digital-clouru .services-main .heading-content {
   text-align: center;
   margin-bottom: 40px;
 }
 @media (max-width: 767px){
-  .digital-outsourcing-agency .services-main .heading-content {
+  .digital-clouru .services-main .heading-content {
     text-align: center;
     margin-bottom: 0;
   }
 }
-.digital-outsourcing-agency .services-main .service-box .box-title {
+.digital-clouru .services-main .service-box .box-title {
   font-size: 16px;
   line-height: 22px;
   margin-bottom: 10px;
@@ -2148,14 +2148,14 @@ body.open-custom-popup .site-header.allot-position {
   max-width: calc(100% - 57px);
   z-index: 1;
 }
-.digital-outsourcing-agency .services-main .service-box .icon {
+.digital-clouru .services-main .service-box .icon {
   position: absolute;
   right: 10px;
   top: 50%;
   transform: translateY(calc(-50% + 3px));
   z-index: 1;
 }
-.digital-outsourcing-agency .services-main .service-box::after {
+.digital-clouru .services-main .service-box::after {
   content: '';
   width: 100%;
   height: 10px;
@@ -2167,153 +2167,153 @@ body.open-custom-popup .site-header.allot-position {
   transition: .3s all;
   z-index: 0;
 }
-.digital-outsourcing-agency .services-main .service-box:hover::after {
+.digital-clouru .services-main .service-box:hover::after {
   height: 100%;
   background: #4F5357;
 }
-.digital-outsourcing-agency .services-main .service-box:hover .box-title {
+.digital-clouru .services-main .service-box:hover .box-title {
   color: #FFF;
 }
-.digital-outsourcing-agency .services-main .service-box:hover .icon path, .digital-outsourcing-agency .services-main .service-box:hover .icon circle, .digital-outsourcing-agency .services-main .service-box:hover .icon rect {
+.digital-clouru .services-main .service-box:hover .icon path, .digital-clouru .services-main .service-box:hover .icon circle, .digital-clouru .services-main .service-box:hover .icon rect {
   stroke: #FFF;
 }
 @media (min-width: 481px) {
-  .digital-outsourcing-agency .services-main .service-box.no-box-link {
+  .digital-clouru .services-main .service-box.no-box-link {
     min-height: 125px;
   }
 }
-.digital-outsourcing-agency .banner .left-side {
+.digital-clouru .banner .left-side {
   color: #fff;
 }
-.digital-outsourcing-agency .banner .left-side h1 {
+.digital-clouru .banner .left-side h1 {
   color: #a4d6e8;
   margin-bottom: 30px;
 }
-.digital-outsourcing-agency .banner .left-side h2 {
+.digital-clouru .banner .left-side h2 {
   color: #FFFFFF;
   margin-bottom: 15px;
 }
-.digital-outsourcing-agency .banner .left-side p {
+.digital-clouru .banner .left-side p {
   font-size: 22px;
   line-height: 1.5;
   margin: 0;
 }
-.digital-outsourcing-agency .clutch-pg .banner .item {
+.digital-clouru .clutch-pg .banner .item {
   flex-wrap: wrap;
   align-items: flex-end;
 }
-.digital-outsourcing-agency .number-section {
+.digital-clouru .number-section {
   background: #f3f3f3;
   padding: 100px 0;
 }
-.digital-outsourcing-agency .nums ul li p {
+.digital-clouru .nums ul li p {
   margin: 0;
 }
-.digital-outsourcing-agency .clutch-pg .number-section {
+.digital-clouru .clutch-pg .number-section {
   background: #fff;
 }
-.digital-outsourcing-agency .clutch-pg .number-section .container {
+.digital-clouru .clutch-pg .number-section .container {
   max-width: 1400px;
 }
-.digital-outsourcing-agency .nums ul li h4 {
+.digital-clouru .nums ul li h4 {
   font-size: 45px;
   margin-bottom: 10px;
 }
-.digital-outsourcing-agency .nums ul li p {
+.digital-clouru .nums ul li p {
   font-size: 16px;
   font-weight: 400;
 }
-.digital-outsourcing-agency .get-in-touch-section:before {
+.digital-clouru .ratecard-download-section:before {
   background-color: unset;
 }
-.digital-outsourcing-agency .footer-right {
+.digital-clouru .footer-right {
   flex: 0 0 100%;
   max-width: 100%;
   text-align: center;
 }
-.digital-outsourcing-agency footer .footer-contact {
+.digital-clouru footer .footer-contact {
   justify-content: center;
   padding-top: 0 !important;
 }
-.digital-outsourcing-agency footer .footer-right:before {
+.digital-clouru footer .footer-right:before {
   display: none !important;
 }
-.digital-outsourcing-agency .footer-right {
+.digital-clouru .footer-right {
   padding-top: 0 !important;
 }
 @media (max-width: 1280px) {
-  .digital-outsourcing-agency .banner .left-side h1 {
+  .digital-clouru .banner .left-side h1 {
     font-size: 35px;
   }
-  .digital-outsourcing-agency .banner .left-side h2 {
+  .digital-clouru .banner .left-side h2 {
     font-size: 30px;
   }
-  .digital-outsourcing-agency .nums ul li h4 {
+  .digital-clouru .nums ul li h4 {
     font-size: 30px;
   }
-  .digital-outsourcing-agency .nums ul li p {
+  .digital-clouru .nums ul li p {
     font-size: 15px;
   }
-  .digital-outsourcing-agency .get-in-touch-content .cta-button {
+  .digital-clouru .ratecard-download-content .cta-button {
     display: inline-flex;
     width: auto;
   }
 }
 @media (max-width: 991px) {
-  .digital-outsourcing-agency .banner .left-side h1 {
+  .digital-clouru .banner .left-side h1 {
     font-size: 30px;
   }
-  .digital-outsourcing-agency .banner .left-side h2  {
+  .digital-clouru .banner .left-side h2  {
     font-size: 26px;
   }
-  .digital-outsourcing-agency .banner .left-side p {
+  .digital-clouru .banner .left-side p {
     font-size: 15px;
   }
-  .digital-outsourcing-agency .clutch-pg .number-section {
+  .digital-clouru .clutch-pg .number-section {
     padding: 60px 0;
   }
-  .digital-outsourcing-agency .clutch-pg .nums ul li {
+  .digital-clouru .clutch-pg .nums ul li {
     flex: 0 0 33.33%;
     max-width: 33.33%;
     margin: 0;
   }
-  .digital-outsourcing-agency .ppc-testimonials .item {
+  .digital-clouru .ppc-testimonials .item {
     padding: 0;
   }
 }
 @media (max-width: 767px) {
-  .digital-outsourcing-agency .clutch-pg .banner .item {
+  .digital-clouru .clutch-pg .banner .item {
     height: auto;
     padding: 100px 0 50px 0;
   }
-  .digital-outsourcing-agency .banner .left-side h1 {
+  .digital-clouru .banner .left-side h1 {
     font-size: 25px;
     margin-bottom: 15px;
   }
-  .digital-outsourcing-agency .banner .left-side h2 {
+  .digital-clouru .banner .left-side h2 {
     font-size: 20px;
     margin-bottom: 5px;
   }
-  .digital-outsourcing-agency .banner .left-side {
+  .digital-clouru .banner .left-side {
     margin-bottom: 30px;
   }
-  .digital-outsourcing-agency .nums ul li h4 {
+  .digital-clouru .nums ul li h4 {
     font-size: 22px;
     margin-bottom: 8px;
   }
 }
 @media (max-width: 480px) {
-  .digital-outsourcing-agency .clutch-pg .nums ul li {
+  .digital-clouru .clutch-pg .nums ul li {
     flex: 0 0 100%;
     max-width: 100%;
     margin-bottom: 15px;
     padding-bottom: 15px;
   }
-  .digital-outsourcing-agency .services-main .item {
+  .digital-clouru .services-main .item {
     flex: 0 0 100%;
     max-width: 100%;
   }
-  .digital-outsourcing-agency .services-main {
+  .digital-clouru .services-main {
     padding-bottom: 15px;
   }
 }
@@ -2363,7 +2363,7 @@ body.open-custom-popup .site-header.allot-position {
 .slides {
   display: flex;
 }
-.digital-outsourcing-agency .banner .left-side h1 {
+.digital-clouru .banner .left-side h1 {
   color: #a4d6e8;
 }
 .cta-button,
@@ -2385,15 +2385,15 @@ footer#colophon {
 footer#colophon .ftr-locations ul {
   justify-content: center;
 }
-.digital-outsourcing-agency .clutch-pg .banner .item {
+.digital-clouru .clutch-pg .banner .item {
   align-items: center;
 }
-.digital-outsourcing-agency .services-main .item,
+.digital-clouru .services-main .item,
 .ppc-testimonials .slides {
   display: grid;
 }
 @media (max-width: 390px) {
-  .digital-outsourcing-agency .services-main .service-box .box-title {
+  .digital-clouru .services-main .service-box .box-title {
     /* max-width: 230px; */
   }
 }
