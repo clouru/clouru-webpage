@@ -1,7 +1,7 @@
 var filter = /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
 var num_filter = /^\d+$/;
 
-$(document).on("click", "#enquiry-form_submit", function (event) {
+$(document).on("click", "#mc-embedded-subscribe", function (event) {
     event.preventDefault();
 
     var $thisForm = $(this).closest("form");

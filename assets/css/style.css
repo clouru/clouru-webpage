@@ -2100,11 +2100,11 @@ body.open-custom-popup .site-header.allot-position {
 .contact-form-isolated .defaultForm {
   padding: 0;
 }
-.contact-form-isolated .defaultForm #enquiry-form .submit-btn {
+.contact-form-isolated .defaultForm #mc-embedded-subscribe-form .submit-btn {
   max-width: inherit;
   text-align: left;
 }
-.contact-form-isolated .defaultForm #enquiry-form .form-group {
+.contact-form-isolated .defaultForm #mc-embedded-subscribe-form .form-group {
   margin-bottom: 20px;
 }
 .digital-clouru .services-main {
