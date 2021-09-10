@@ -2104,7 +2104,7 @@ body.open-custom-popup .site-header.allot-position {
   max-width: inherit;
   text-align: left;
 }
-.contact-form-isolated .defaultForm #mc-embedded-subscribe-form .form-group {
+.contact-form-isolated .defaultForm .mc-form-first .form-group {
   margin-bottom: 20px;
 }
 .digital-clouru .services-main {
